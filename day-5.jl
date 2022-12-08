@@ -9,5 +9,5 @@ s = "Hello, world!"
 println(s)
 
 # Use string functions to manipulate the string
-t = replace(s, "world", "Julia")
+t = replace(s, "world" => "Julia")
 println(t)
